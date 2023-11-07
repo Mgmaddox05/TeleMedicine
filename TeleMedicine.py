@@ -63,18 +63,18 @@ def open_ehr_page(user_name):
 
     # Sample patient data
     patient_data = {
-        "Name": "John Doe",
-        "DOB": "January 15, 1980",
-        "Height": "5'10\"",
-        "Weight": "175 lbs",
-        "Blood Type": "A+",
-        "Allergies": "Pollen, Penicillin",
-        "Medical History": "Hypertension, Diabetes",
+        "Name": "Matthew Maddox",
+        "DOB": "September 29th, 2005",
+        "Height": "5'11\"",
+        "Weight": "174 lbs",
+        "Blood Type": "O+",
+        "Allergies": "Sudden Weather Changes",
+        "Medical History": "Eplisey",
     }
 
     # Display patient data using labels in the "Patient Info" tab
     for i, (key, value) in enumerate(patient_data.items()):
-        label = tk.Label(patient_info_tab, text=f"{key}: {value}", font=("Arial", 12))
+        label = tk.Label(patient_info_tab, text=f"{key}: {value}", font=("Times New Roman", 30))
         label.grid(row=i, column=0, sticky="w")
 
     # Create a "Calendar" tab
@@ -84,6 +84,14 @@ def open_ehr_page(user_name):
     # Add a calendar widget or any calendar-related components in the "Calendar" tab
     calendar_label = tk.Label(calendar_tab, text="Calendar will go here", font=("Arial", 12))
     calendar_label.pack()
+
+    # Create a "Account Info" tab
+    accInfo_tab = ttk.Frame(notebook) 
+    notebook.add(accInfo_tab, text="Account Info")
+
+    # Create a ""
+
+    
 
 # Create the main window
 root = tk.Tk()
