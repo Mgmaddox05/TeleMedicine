@@ -47,6 +47,7 @@ def open_signup_window():
     signup_button.pack(pady=10)
 
 def open_ehr_page(user_name):
+    signin_window.destroy()
     ehr_window = tk.Toplevel(root)
     ehr_window.title("Electronic Health Record")
 

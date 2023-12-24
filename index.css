@@ -1,0 +1,94 @@
+/* App.css */
+/* ... (existing styles remain unchanged) */
+/* App.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .app-container {
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .login-button,
+  .signup-button {
+    margin-left: 10px;
+  }
+  
+  .login-container,
+  .signup-container {
+    margin-top: 20px;
+    text-align: center;
+    display: none;
+  }
+  
+  .login-container.show,
+  .signup-container.show {
+    display: block;
+  }
+  
+  footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+
+.message-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .messages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .message {
+    background-color: #e1f5fe;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .message-container form {
+    margin-top: 10px;
+  }
+  
+  .message-container input[type="text"] {
+    padding: 8px;
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  .message-container button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
